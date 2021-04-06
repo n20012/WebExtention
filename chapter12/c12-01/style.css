@@ -1,4 +1,77 @@
-@charset "UTF-8"'
+@charset "utf-8";
 body {
+	color: #444;
 	margin: 0;
 }
+
+main p:last-child {
+	margin-bottom: 0;
+}
+
+.main-title {
+	margin: 0;
+}
+
+.copyright {
+	margin: 0;
+}
+
+.container {
+	margin: 0 auto 0 auto;
+	padding: 0 16px 0 16px;
+	max-width: 1000px;
+}
+
+/*
+ * ナビゲーション部分とメイン部分のスペースを開けるには、
+ * メインに上マージンを設定する。
+ */
+
+nav {
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+/*
+ * 各パートにパディング、背景、テキスト色などを指定する。
+ * <div class="container">の子孫要素に指定する
+ */
+
+.header-inner {
+	padding: 10px 10px 0 10px;
+	background: #bad7f5;
+}
+
+.nav-inner {
+	padding: 10px 10px 0 10px;
+	color: #fff;
+	background: #0086f9;
+}
+
+.main-inner {
+	height: 400px;
+	background: #fffde3;
+
+/*
+ * レイアウトのイメージをしやすいように高さを設定。
+ * 通常のWebデザインではレイアウトで高さを指定しない
+ */
+
+	height: 400px;
+}
+
+.sidebar-inner {
+	padding: 20px 10px 20px 10px;
+	background: #c0f5b9;
+}
+
+.footer-inner {
+	padding: 20px 16px 10px 16px;
+	background: #bad7f5;
+}
+
+.container {
+	padding: 0 1;かりやすくするために適用しているCSS */
